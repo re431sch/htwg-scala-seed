@@ -4,10 +4,14 @@ import de.htwg.se.yourgame.model.{Player,Cell}
 
 object YourGame {
   def main(args: Array[String]): Unit = {
-    val student = Player("Your Name")
-    println("Hello, " + student.name)
+
+    val player1 = Player("red")
+    println("Hello, " + player1.name)
+
+
+
     val cell = Cell(1)
-    println(cell.toString)
+    //println(cell.toString)
     println(cell.isSet)
 
   }
