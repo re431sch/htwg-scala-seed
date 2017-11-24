@@ -1,6 +1,6 @@
 package de.htwg.se.yourgame
 
-import de.htwg.se.yourgame.model.{Player,Cell}
+import de.htwg.se.yourgame.model.{Player,Cell,Board}
 
 object YourGame {
   def main(args: Array[String]): Unit = {
@@ -10,6 +10,9 @@ object YourGame {
 
     player1.house
     player1.goal
+
+    val board = Board(40)
+    board.setBoard
 
     val cell = Cell(1)
     //println(cell.toString)
