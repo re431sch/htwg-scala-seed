@@ -8,7 +8,8 @@ object YourGame {
     val player1 = Player("red")
     println("Hello, " + player1.name)
 
-
+    player1.house
+    player1.goal
 
     val cell = Cell(1)
     //println(cell.toString)
